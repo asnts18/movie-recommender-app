@@ -1,0 +1,44 @@
+/* Reviews.css */
+
+/* Reviews container */
+.reviews-container {
+    max-height: 400px; /* Set a fixed height for the scrollable container */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    padding-right: 10px; /* Optional: To avoid cutting off the scrollbar */
+  }
+  
+  /* Individual review card */
+  .review-card {
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #e1e1e1; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Review text */
+  .review-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: grey; /* Dark text */
+  }
+  
+  /* Review date */
+  .review-date {
+    font-size: 0.875rem;
+    color: #6c757d; /* Light gray */
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Optional styling for the hr */
+  hr {
+    border: 1px solid #e1e1e1;
+  }
+  
+  /* Message for when no reviews are available */
+  .no-reviews-message {
+    font-style: italic;
+    color: #6c757d;
+  }
+  
