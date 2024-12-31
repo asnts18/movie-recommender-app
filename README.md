@@ -23,15 +23,5 @@ This Movie Recommender App helps users find and keep track of their favorite mov
 
 - **Frontend**: React, JavaScript, HTML, CSS
 - **Backend**: Spring Boot, Java
+- **Database**: MongoDB Atlas
 - **Version Control**: Git, GitHub
-
-## Setup and Installation
-
-To set up the project on your local machine, follow the instructions below for both the frontend and backend.
-
-### Frontend
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/asnts18/movie-recommender-app.git
-   cd movie-recommender-app/frontend
